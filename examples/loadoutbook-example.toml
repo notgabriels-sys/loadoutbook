@@ -1,0 +1,34 @@
+[loadout]
+title = "Example live loadout"
+project = "Example Artist"
+requirements_basis = "Artist-declared transport and packing checklist."
+
+[[items]]
+id = "drum-machine"
+position = 1
+category = "instrument" # instrument, cable, power, backup, document, or other
+label = "Example drum machine"
+location = "Main performance case"
+critical = true
+state = "packed" # unpacked, packed, or not-needed
+notes = "Confirm actual physical presence and working condition separately."
+
+[[items]]
+id = "power-cable"
+position = 2
+category = "power"
+label = "Example power cable"
+location = "Cable pouch"
+critical = true
+state = "packed"
+notes = "Confirm connector suitability with the current venue separately."
+
+[[items]]
+id = "backup-media"
+position = 3
+category = "backup"
+label = "Declared backup media"
+location = "Document pouch"
+critical = false
+state = "not-needed"
+notes = "Not needed in this fictional example."
